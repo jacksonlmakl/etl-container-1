@@ -27,8 +27,8 @@ services:
       args:
         - NO_CACHE=1
     volumes:
-      - ./controller.yaml:/app/controller.yaml
-      - ./model:/app/model
+      - ./controller1.yaml:/app/controller.yaml
+      - ./model1:/app/model
     ports:
       - "1201:3000"  # Frontend port
       - "1501:5000"  # Backend port
